@@ -1,7 +1,9 @@
-﻿class Program
+﻿using CodingQuestions.String;
+
+class Program
 {
     public static void Main(String[] args)
     {
-        Console.WriteLine("Hello!");
+        chkPalindrome.isPalindrome("madam");
     }
 }
